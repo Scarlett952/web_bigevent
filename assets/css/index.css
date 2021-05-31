@@ -1,5 +1,5 @@
 a {
-    transition: none;
+    transition: none !important;
 }
 .layui-footer {
     text-align: center;
