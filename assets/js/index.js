@@ -13,7 +13,8 @@ $(function () {
         localStorage.removeItem("todolist");
         localStorage.removeItem("token");
         //跳转到登录页面
-        location.href = "./login.html";
+        // location.href = "./login.html";
+        location.href="/login.html"
 
         //关闭confirm 询问框
         layer.close(index);

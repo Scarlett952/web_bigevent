@@ -74,7 +74,9 @@ $(function () {
 
         //创建本地存储
         localStorage.setItem("token", res.token);
-        location.href = "/QQPCmgr/Desktop/bigbigbig/day1/code/index.html";
+        // location.href = "/QQPCmgr/Desktop/bigbigbig/day1/code/index.html";
+        location.href = "/index.html"
+        // location.href="."
       },
     });
   });
