@@ -52,7 +52,7 @@ function getUserInfo() {
 //头像和文字头像函数
 function reanerAdver(user) {
   //判断用户
-  const name = user.username || user.nickname;
+  const name = user.nickname || user.username;
   $("#welcom").html(`欢迎&nbsp;${name}`);
 
   // 判断头像
